@@ -21,7 +21,7 @@ const cli: Commands = yargs(hideBin(process.argv))
   })
   .options({
     tpl: { type: 'string', demandOption: true, description: 'Template directory' },
-    outDir: { type: 'string', description: 'Out directory' },
+    outDir: { type: 'string', description: 'Out directory', default: './' },
     rw: { type: 'array', demandOption: true, description: 'Rewrite string. Example: <fromString>:<toString>' }
   })
   .argv as Commands;
