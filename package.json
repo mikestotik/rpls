@@ -4,14 +4,17 @@
   "description": "",
   "scripts": {
     "start": "tsc --watch",
-    "build": "tsc"
+    "build": "tsc",
+    "package": "pkg . --targets node18-macos-x64 --output hello"
   },
   "author": "mikestotik@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.4",
+    "yargs": "^17.6.2"
   },
   "devDependencies": {
-    "@types/node": "^18.11.18"
+    "@types/node": "^18.11.18",
+    "@types/yargs": "^17.0.19"
   }
 }

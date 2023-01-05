@@ -1,7 +1,9 @@
 {
   "exclude": [
     "tpl",
-    "result"
+    "result",
+    "entity",
+    "step",
   ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
