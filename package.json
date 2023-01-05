@@ -1,11 +1,10 @@
 {
   "name": "rpls",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "copying templates with variable substitution and replacement",
   "scripts": {
     "start": "tsc --watch",
-    "build": "tsc",
-    "publish": "npm version patch && npm publish --access public"
+    "build": "tsc"
   },
   "repository": "https://github.com/mikestotik/rpls",
   "author": "Mike Stotik <mikestotik@gmail.com>",
