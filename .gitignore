@@ -243,5 +243,4 @@ Temporary Items
 package-lock.json
 result
 tpl/
-dist/
 entity/
