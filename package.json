@@ -1,14 +1,23 @@
 {
   "name": "rpls",
   "version": "1.0.6",
-  "description": "",
+  "description": "copying templates with variable substitution and replacement",
   "scripts": {
     "start": "tsc --watch",
     "build": "tsc",
-    "package": "pkg . --targets node18-macos-x64 --output hello"
+    "publish": "npm version patch && npm publish --access public"
   },
-  "author": "mikestotik@gmail.com",
-  "license": "ISC",
+  "repository": "https://github.com/mikestotik/rpls",
+  "author": "Mike Stotik <mikestotik@gmail.com>",
+  "keywords": [
+    "cli",
+    "command-line",
+    "console",
+    "replace",
+    "copying",
+    "template"
+  ],
+  "license": "MIT",
   "dependencies": {
     "typescript": "^4.9.4",
     "yargs": "^17.6.2"
@@ -16,5 +25,8 @@
   "devDependencies": {
     "@types/node": "^18.11.18",
     "@types/yargs": "^17.0.19"
-  }
+  },
+  "files": [
+    "bin"
+  ]
 }
