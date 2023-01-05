@@ -1,0 +1,17 @@
+{
+  "name": "tgen",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsc --watch",
+    "build": "tsc"
+  },
+  "author": "mikestotik@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
