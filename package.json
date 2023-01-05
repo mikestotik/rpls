@@ -1,6 +1,6 @@
 {
   "name": "rpls",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "copying templates with variable substitution and replacement",
   "scripts": {
     "start": "tsc --watch",
